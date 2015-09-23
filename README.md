@@ -1,6 +1,6 @@
 # protractor-issue
 
-See [this](https://github.com/angular/protractor/issues/24160) [Protractor](https://angular.github.io/protractor) issue.
+See [this issue](https://github.com/angular/protractor/issues/2416) with [Protractor](https://angular.github.io/protractor).
 
 ## Run instructions
 
