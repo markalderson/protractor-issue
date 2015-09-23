@@ -1,11 +1,13 @@
 <!doctype html>
-<html ng-app>
+<html ng-app="protractor-issue">
 <head>
 	<meta charset="utf-8">
 	<title>Protractor Issue</title>
 </head>
-<body>
+<body ng-controller="MyController">
 	<input type="file">
+	<p>{{content}}</p>
 	<script src="node_modules/angular/angular.js"></script>
+	<script src="script.js"></script>
 </body>
 </html>

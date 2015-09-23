@@ -31,7 +31,6 @@ describe('Tryin to upload', function() {
 	browser.driver.executeScript(function () {
 		return document.querySelector('input').files;
 	}).then(function (files) {
-		console.log(files[0]);
 		expect(files[0].name).toEqual('bar.txt');
 	});
   });
