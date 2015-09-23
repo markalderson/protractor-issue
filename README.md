@@ -19,6 +19,6 @@ This test consists of 2 similar specs. Both deal with file selection through a `
 
 The second spec _should_ fail.
 
-### spec.js
+### spec2.js
 
 This test is similar, but goes deeper: it verifies file content. With an existing file, content is properly read. A non-existing file is instead equivalent to an empty file (i.e. `content === ''`).
